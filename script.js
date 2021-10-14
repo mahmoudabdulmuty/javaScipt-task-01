@@ -9,7 +9,7 @@ const h1 = document.createElement('h1');
 // check for falsy values
 function checkFalsyValue() {
 	if (!value1.value || !value2.value) {
-		h1.textContent = 'No Number';
+		h1.textContent = 'اكتب رقم يسطا بعد اذنك';
 	}
 }
 
