@@ -13,7 +13,7 @@
 			}
 			label {
 				display: block;
-				margin-bottom: 50px;
+				margin-bottom: 35px;
 			}
 			.arithmetic {
 				display: flex;
@@ -21,23 +21,53 @@
 				gap: 28px;
 			}
 			.btn {
-				width: 48px;
-				height: 48px;
-				font-size: 24px;
-				border-radius: 50%;
-				color: lightseagreen;
-				background-color: lightblue;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				margin-bottom: 20px;
-				outline: 5px solid lightskyblue;
+				box-shadow: 3px 4px 0px 0px #899599;
+				background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+				background-color: #ededed;
+				border-radius: 15px;
+				border: 1px solid #d6bcd6;
+				display: inline-block;
+				cursor: pointer;
+				color: #3a8a9e;
+				font-family: Arial;
+				font-size: 17px;
+				padding: 7px 25px;
+				text-decoration: none;
+				text-shadow: 0px 1px 0px #e1e2ed;
+			}
+			.btn:hover {
+				background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+				background-color: #bab1ba;
+			}
+			.btn:active {
+				position: relative;
+				top: 1px;
 			}
 			#clear {
-				color: #fff;
-				background-color: lightcoral;
-				outline: 5px solid darkmagenta;
-				padding: 48px;
+				box-shadow: inset 0px 1px 0px 0px #f7c5c0;
+				background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+				background-color: #fc8d83;
+				border-radius: 6px;
+				border: 1px solid #d83526;
+				display: inline-block;
+				cursor: pointer;
+				color: #ffffff;
+				font-family: Arial;
+				font-size: 15px;
+				font-weight: bold;
+				padding: 6px 24px;
+				text-decoration: none;
+				text-shadow: 0px 1px 0px #b23e35;
+				position: relative;
+				top: 12px;
+			}
+			#clear:hover {
+				background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+				background-color: #e4685d;
+			}
+			#clear:active {
+				position: relative;
+				top: 13px;
 			}
 		</style>
 	</head>
@@ -60,7 +90,7 @@
 			<button id="divide" class="btn">÷</button>
 		</div>
 		<!-- CLEAR BUTTON -->
-		<button id="clear" class="btn">Clear</button>
+		<button id="clear" class="">Clear</button>
 		<!-- Custom JS -->
 		<script src="script.js"></script>
 	</body>
