@@ -1,1 +1,1 @@
-# javaScipt-task-01
+# Random User Generator
